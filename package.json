@@ -1,9 +1,9 @@
 {
-  "name": "dynamic-load",
+  "name": "antd-examples",
   "version": "1.0.0",
   "private": true,
   "entry": {
-    "index": "./src/entry/index.jsx"
+    "dynamic-load": "./src/dynamic-load/entry/index.jsx"
   },
   "dependencies": {
     "antd": "0.12.x",
@@ -14,11 +14,12 @@
     "react-dom": "0.14.x"
   },
   "devDependencies": {
+    "babel-eslint": "^6.0.0",
     "dora": "0.3.x",
-    "dora-plugin-webpack": "0.6.x",
     "dora-plugin-hmr": "0.5.x",
     "dora-plugin-livereload": "0.3.x",
     "dora-plugin-proxy": "0.6.x",
+    "dora-plugin-webpack": "0.6.x",
     "eslint": "2.x",
     "eslint-config-airbnb": "6.x",
     "eslint-plugin-react": "4.x",

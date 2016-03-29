@@ -1,4 +1,4 @@
-import '../common/lib';
+import '../../common/lib';
 import App from '../component/App';
 import ReactDOM from 'react-dom';
 import React from 'react';
