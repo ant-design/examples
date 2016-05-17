@@ -12,7 +12,7 @@ class App extends Component {
 
   onClick = () => {
     require.ensure([], () => {
-      const DatePicker = require('antd/lib/date-picker');
+      const DatePicker = require('./DatePicker');
       this.setState({
         component: <DatePicker />,
       });

@@ -1,5 +1,7 @@
 module.exports = function(webpackConfig) {
-  webpackConfig.babel.plugins.push('antd');
+  webpackConfig.babel.plugins.push(['antd',{
+  	style: 'css',
+  }]);
 
   // Fix ie8 compatibility
   webpackConfig.module.loaders.unshift({
