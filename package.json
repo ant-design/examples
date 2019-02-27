@@ -6,23 +6,23 @@
     "dynamic-load": "./src/dynamic-load/entry/index.jsx"
   },
   "dependencies": {
-    "antd": "1.x",
-    "atool-build": "0.6.x",
-    "babel-plugin-antd": "0.4.x",
-    "es3ify-loader": "^0.1.0",
-    "react": "0.14.x",
-    "react-dom": "0.14.x"
+    "antd": "^3.13.6",
+    "atool-build": "~1.0.7",
+    "babel-plugin-antd": "~0.5.1",
+    "es3ify-loader": "^0.2.0",
+    "react": "~16.8.3",
+    "react-dom": "~16.8.3"
   },
   "devDependencies": {
-    "babel-eslint": "^6.0.0",
-    "dora": "0.3.x",
-    "dora-plugin-hmr": "0.5.x",
-    "dora-plugin-livereload": "0.3.x",
-    "dora-plugin-proxy": "0.6.x",
-    "dora-plugin-webpack": "0.6.x",
-    "eslint": "2.x",
-    "eslint-config-airbnb": "6.x",
-    "eslint-plugin-react": "4.x",
+    "babel-eslint": "^10.0.1",
+    "dora": "~0.6.1",
+    "dora-plugin-hmr": "~0.7.1",
+    "dora-plugin-livereload": "~0.6.0",
+    "dora-plugin-proxy": "~0.9.0",
+    "dora-plugin-webpack": "~1.0.0",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-react": "^7.12.4",
     "pre-commit": "1.x"
   },
   "pre-commit": [
