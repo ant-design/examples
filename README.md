@@ -1,5 +1,7 @@
 # antd examples
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ant-design/examples.svg)](https://greenkeeper.io/)
+
 ## dynamic-load
 
 demo of dynamic load components using publicPath
