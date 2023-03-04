@@ -30,7 +30,7 @@
   ],
   "scripts": {
     "start": "npm run dev",
-    "dev": "dora -p 8001 --plugins webpack",
+    "dev": "npx dora -p 8001 --plugins webpack",
     "lint": "eslint --ext .js,.jsx src",
     "build": "atool-build --publicPath=${npm_package_name}/${npm_package_version}/ -o ./dist/${npm_package_name}/${npm_package_version}"
   }
